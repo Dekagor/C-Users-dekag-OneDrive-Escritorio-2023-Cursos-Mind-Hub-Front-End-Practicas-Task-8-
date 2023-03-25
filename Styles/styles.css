@@ -1,0 +1,309 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    background-color: rgb(236, 234, 234);
+}
+
+nav {
+    height: 4.0625em;
+    padding: 0.9375em;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    background-color: #ebf7ff;
+    box-shadow: 0 0 0.625em rgba(0, 0, 0, 0.7);
+}
+
+.nav-logo {
+    margin-right:34.375em;
+}
+
+.nav-link {
+    display: flex;
+    font-size: 15px;
+    color: rgb(142, 128, 128);
+    text-transform: uppercase;
+}
+
+header {
+    background-color: rgb(165, 182, 198);
+    height: 6.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.fa-chevron-left {
+    margin-right: 28.125em;
+    color: gray;
+}
+
+.fa-chevron-right {
+    margin-left: 28.125em;
+    color: gray;
+}
+
+aside {
+    display: flex;
+    justify-content: center;
+    height: 5em;
+    padding: 0.875em;
+}
+
+.form-control {
+    margin-top: 1.0625em;
+}
+
+.checkbox {
+    margin-top: 1.5em;
+    font-size: 0.9375em;
+    display: flex;
+    width: 96.875em;
+}
+
+section {
+    height: 374.75rem;
+    padding: 3.125em;
+}
+
+.container {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    display: flex;
+    padding: 2.1875em;
+    margin-top: 3.125em;
+    width: 16.875em;
+    height: 33.625em;
+}
+
+.event {
+    background-color:aliceblue;
+    text-align: center;
+    padding: 2.1875em;
+    width: 35.625em;
+    height: 1100px;
+}
+
+.event img {
+    width: 31.25em;
+    padding: 1.25em;
+    margin-top: 0.625em;
+    box-shadow: -0.625em -0.625em 1.25em rgba(0, 0, 0, 0.7);
+}
+
+.card img {
+    padding: 1.25em;
+    margin-top: 0.625em;
+    box-shadow: -0.625em -0.625em 1.25em rgba(0, 0, 0, 0.7);
+}
+
+.card-body {
+    text-align:justify;
+}
+
+.align {
+    display: flex;
+    align-items: flex-end;
+    margin-top: 3.125em;
+}
+
+.btn{
+    background-color: blueviolet;
+    color: #ebf7ff;
+    margin-left: 3.75em;
+    border: 3px;
+    border-color: black;
+}
+
+footer {
+    background-color: rgb(165, 182, 198);
+    height: 4.5em;
+    padding: 0.625em;
+    font-size: 1.875em;
+}
+
+.validator {
+    display: inline-flex;
+    margin-left: 1000px;
+ }
+
+.fa-instagram {
+    padding-left: 0.75em;
+    color: black;
+}
+
+.fa-facebook {
+    padding-left: 1.5625em;
+    color: black;
+}
+
+.fa-whatsapp {
+    padding-left: 1.5625em;
+    color: black;
+}
+
+.form-group {
+    margin-left: 18.75em;
+    width: 53.125em;
+    padding: 2.1875em;
+}
+
+.me-md-2 {
+    margin-top: 0.9375em;
+    margin-left: 43.75em;
+}
+
+thead {
+    border: black 3px solid;
+    background-color: rgba(167, 158, 159, 0.683);
+}
+
+tbody {
+    border: black 3px solid;
+}
+
+td, th {
+    border-left:  black 1px solid;
+    }
+
+span {
+    display: flex;
+    justify-content: center;
+}
+.col-md-4 {
+    padding: 1.5625em;
+    height: 31.25em;
+}
+
+.col-md-4 img {
+height: 13.75em;
+}
+
+.table-responsive-md {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-left: 170px;
+    margin-right: 150px;
+}
+
+.table-responsive-xl {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    margin-top: 30px;
+    margin-left: 200px;
+}
+
+@media screen and (max-width: 1258px) {
+    .nav-logo {
+        margin-right: 330px;
+    }
+
+    .page {
+        display: flex;
+    }
+
+    .fa-chevron-left {
+        margin-right: 50px;
+    }
+
+    .fa-chevron-right {
+        margin-left: 50px;
+    }
+
+    section {
+        height: 375rem;
+    }
+
+    .form-group {
+        width: 31.25em;
+    }
+
+    .me-md-2 {
+        margin-left: 21.875em;
+    }
+
+    .validator {
+        margin-left: 600px;
+    }    
+}
+
+@media screen and (max-width: 1203px){
+    .nav-logo {
+        margin-right: 140px;
+    }
+
+    .checkbox {
+        display: block;
+        width: 46.875em;
+    }
+
+    section {
+        height: 484.375rem;
+    }
+
+    .validator {
+        margin-left: 500px;
+    } 
+}
+
+@media screen and (max-width: 991px) {
+    .nav-logo {
+        margin-right: 100px;
+    }
+    section {
+        height: 706.25rem;
+    }
+
+    .validator {
+        margin-left: 330px;
+    }
+
+    .nav-link {
+        font-size: 13px;
+    } 
+}
+
+@media screen and (max-width: 767px) {
+    .nav-logo {
+        margin-left: -5px;
+    }  
+
+    .nav-link {
+        padding: 3.5px;
+    } 
+
+    section {
+        height: 1368.75rem;
+    }
+
+    .validator {
+        margin-left: 40px;
+    }
+}
+
+@media screen and (max-width: 629px) {
+    .nav-link {
+        visibility: hidden;
+    }
+
+    .validator {
+        margin-left: 40px;
+    }
+}
